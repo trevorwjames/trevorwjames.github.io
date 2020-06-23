@@ -54,9 +54,7 @@ We can clearly see some things from the average price per neighborhood, it may t
 
 Just for fun, let's take a look at the most expensive area, say we won the lottery and we want to have some fun! Tribeca, the red highlighted bar, is clear and away the most expensive place to stay averaging just about 490$/night.
 
-<iframe>
-
-</iframe>
+<iframe src="https://raw.githubusercontent.com/trevorwjames/trevorwjames.github.io/master/tribecreviewsprice.html" width="800" height="560"> </iframe>
 
 In my experience when you charge top dollar for a place to stay you should have nothing but raving reviews right? We don't have access to the quality of reviews, but we do have access to the number. Does the price of where you stay have any connection with the number of reviews? (Feel free to zoom in or move around to see what the description says about the place to stay on the chart)
 
