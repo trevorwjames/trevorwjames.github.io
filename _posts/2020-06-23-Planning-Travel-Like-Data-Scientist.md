@@ -6,7 +6,7 @@ cover-img: /assets/img/manhattanskyline.jpeg
 tags: [travel, airbnb, NYC]
 ---
 
-## Ive always seemed to have a hard time wading through all the choices of where to stay in NYC, until Now! 
+## Finding a place to stay in New York City can be stressful...
 
 Rather than relying on the pictures, the wordy descriptions, and the fluffy stuff. Let's let the data decide what AirBnB we should select for our journey to the big apple. 
 
