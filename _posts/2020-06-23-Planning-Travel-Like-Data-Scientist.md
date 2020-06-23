@@ -5,6 +5,7 @@ subtitle: Using AirBnB Data to make decisions on where to stay
 cover-img: /assets/img/manhattanskyline.jpeg
 tags: [travel, airbnb, NYC]
 ---
+
 Research question - Rather than relying on the pictures, the wordy descriptions, and the fluffy stuff. Let's let the data decide what AirBnB we should select for our journey to the big apple. 
 
 When you have the job of reserving a room for your trip, there are so many different options to take into consideration. Price, location, reviews, looks, host, etc. what we have done here is take a small portion of the objectivity out of it and look to understand our options base upon the Data!
