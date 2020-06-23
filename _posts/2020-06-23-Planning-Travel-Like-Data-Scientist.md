@@ -6,7 +6,9 @@ cover-img: /assets/img/manhattanskyline.jpeg
 tags: [travel, airbnb, NYC]
 ---
 
-Research question - Rather than relying on the pictures, the wordy descriptions, and the fluffy stuff. Let's let the data decide what AirBnB we should select for our journey to the big apple. 
+## Ive always seemed to have a hard time wading through all the choices of where to stay in NYC, until Now! 
+
+Rather than relying on the pictures, the wordy descriptions, and the fluffy stuff. Let's let the data decide what AirBnB we should select for our journey to the big apple. 
 
 When you have the job of reserving a room for your trip, there are so many different options to take into consideration. Price, location, reviews, looks, host, etc. what we have done here is take a small portion of the objectivity out of it and look to understand our options base upon the Data!
 Despite Manhattan being just under 23 square miles, there are 33 different unique "neighborhoods" that AirBnB uses to identify the area in which the reservation is located in. I thought in order to make it a little easier to search for prices I would look at the average price per neighborhood. This would make it a little easier to search if I could filter down to the neighborhoods that had a reasonable price range. (see chart of average per neighborhood)
