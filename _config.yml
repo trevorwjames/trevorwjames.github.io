@@ -1,13 +1,13 @@
 # --- Basic options --- #
 
 # Name of website
-title: My website
+title: Trevor James Porfolio Website
 
 # Short description of your site
 description: A virtual proof that I'm awesome
 
 # Your name to show in the footer
-author: Some Person
+author: Trevor James
 
 # --- List of links in the navigation bar --- #
 
@@ -38,11 +38,11 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 # If you don't want to show a link to an RSS feed, set rss to "false".
 social-network-links:
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
+  email: "trevorwillemjames@gmail.com"
+  github: trevorwjames
   twitter: daattali
-  rss: true
+# facebook: deanattali
+# rss: true
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
