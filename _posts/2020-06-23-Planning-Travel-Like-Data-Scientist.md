@@ -13,7 +13,6 @@ Rather than relying on the pictures, the wordy descriptions, and the fluffy stuf
 When you have the job of reserving a room for your trip, there are so many different options to take into consideration. Price, location, reviews, looks, host, etc. what we have done here is take a small portion of the objectivity out of it and look to understand our options base upon the Data!
 Despite Manhattan being just under 23 square miles, there are 33 different unique "neighborhoods" that AirBnB uses to identify the area in which the reservation is located in. I thought in order to make it a little easier to search for prices I would look at the average price per neighborhood. This would make it a little easier to search if I could filter down to the neighborhoods that had a reasonable price range. (see chart of average per neighborhood)
 
-<!DOCTYPE html>
 <html>
 <head>
   <style>
@@ -53,7 +52,6 @@ We can clearly see some things from the average price per neighborhood, it may t
 
 Just for fun, let's take a look at the most expensive area, say we won the lottery and we want to have some fun! Tribeca, the red highlighted bar, is clear and away the most expensive place to stay averaging just about 490$/night.
 
-<!DOCTYPE html>
 <html>
 <head>
   <style>
