@@ -13,7 +13,7 @@ Rather than relying on the pictures, the wordy descriptions, and the fluffy stuf
 When you have the job of reserving a room for your trip, there are so many different options to take into consideration. Price, location, reviews, looks, host, etc. what we have done here is take a small portion of the objectivity out of it and look to understand our options base upon the Data!
 Despite Manhattan being just under 23 square miles, there are 33 different unique "neighborhoods" that AirBnB uses to identify the area in which the reservation is located in. I thought in order to make it a little easier to search for prices I would look at the average price per neighborhood. This would make it a little easier to search if I could filter down to the neighborhoods that had a reasonable price range. (see chart of average per neighborhood)
 
-<iframe src="" width="800" height="560"> </iframe>
+<iframe src="https://raw.githubusercontent.com/trevorwjames/trevorwjames.github.io/master/manhattanavg.html" width="800" height="560"> </iframe>
 
 We can clearly see some things from the average price per neighborhood, it may take a little reaserch outside just our data, because just going for the cheapest neighborhood in manhattan could put as a ways away from what we want to see and do! Despite thinking that oh Inwood, or Marble Hill is the way to go, that would put us a ways away from the action.
 
