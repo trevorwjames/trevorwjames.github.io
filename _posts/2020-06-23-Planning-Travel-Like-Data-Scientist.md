@@ -23,7 +23,7 @@ In my experience when you charge top dollar for a place to stay you should have 
 
 <iframe style="border-width:0" src="https://charts.sharpdesigndigital.com/trevor-tribecreviewsprice.html" width="725" height="390"> </iframe>
 
-Say we haven't won the lottery, yet. Lets select abother neightborhood that is more in our price range. Contrary to popular belief, Harlem is a very up and coming area that is a short train ride away from some awesome attractions downtown. If you use the same guildines as above. We can pick out a place to stay that is in our price range, as well as if that one in our range has some reviews.
+Say we haven't won the lottery, yet. Lets select abother neightborhood that is more in our price range. Contrary to popular belief, Harlem is a very up and coming area that is a short train ride away from some awesome attractions downtown. If you use the same guidelines as above. We can pick out a place to stay that is in our price range. Also we can compare how reviewed out each place is as well. 
 
 <iframe style="border-width:0" src="https://charts.sharpdesigndigital.com/trevor-harlemreviews.html" width="725" height="390"> </iframe>
 
