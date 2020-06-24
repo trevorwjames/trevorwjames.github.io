@@ -21,11 +21,11 @@ Just for fun, let's take a look at the most expensive area, say we won the lotte
 
 In my experience when you charge top dollar for a place to stay you should have nothing but raving reviews right? We don't have access to the quality of reviews, but we do have access to the number of reviews. Does the price of where you stay have any connection with the number of reviews?
 
-<iframe style="border-width:0" src="https://charts.sharpdesigndigital.com/trevor-tribecreviewsprice.html" width="725" height="375"> </iframe>
+<iframe style="border-width:0" src="https://charts.sharpdesigndigital.com/trevor-tribecreviewsprice.html" width="725" height="390"> </iframe>
 
 Say we haven't won the lottery, yet. Lets select abother neightborhood that is more in our price range. Contrary to popular belief, Harlem is a very up and coming area that is a short train ride away from some awesome attractions downtown. If you use the same guildines as above. We can pick out a place to stay that is in our price range, as well as if that one in our range has some reviews.
 
-<iframe style="border-width:0" src="https://charts.sharpdesigndigital.com/trevor-harlemreviews.html" width="725" height="375"> </iframe>
+<iframe style="border-width:0" src="https://charts.sharpdesigndigital.com/trevor-harlemreviews.html" width="725" height="390"> </iframe>
 
 There _are_ some variables we have left out when it comes to selecting a place to stay. Being able to see a few photos, actually read the reviews to see how positive they are, and maybe even looking into the host a touch, can have a big impact on where to stay. What we did do though is take out the bias of either paid advertisements popping up first, or letting the search engine show us what it thinks we are looking for. 
 
