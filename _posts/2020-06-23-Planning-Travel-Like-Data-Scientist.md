@@ -44,3 +44,12 @@ There are _some_ variables we have left out when it comes to selecting a place t
 
 Think twice next time before you just select the AirBnB that pops up first on your search, there are thousands of options. Explore accordignly. 
 
+
+### Link to Github repository & data set source 
+
+[Github project repository](https://github.com/trevorwjames/Build-Week-1)
+
+[AirBnb Data Set](http://insideairbnb.com/get-the-data.html)
+
+
+
