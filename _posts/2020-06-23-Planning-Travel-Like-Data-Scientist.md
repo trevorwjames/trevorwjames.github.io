@@ -25,7 +25,7 @@ Just for fun, let's take a look at the most expensive area, say we won the lotte
 
 In my experience when you charge top dollar for a place to stay you should have nothing but raving reviews right? We don't have access to the quality of reviews, but we do have access to the number of reviews. Does the price of where you stay have any connection with the number of reviews?
 
-<iframe style="border-width:0" src="https://charts.sharpdesigndigital.com/trevor-tribecreviewsprice.html" width="900" height="450"> </iframe>
+<iframe style="border-width:0" src="https://charts.sharpdesigndigital.com/trevor-tribecreviewsprice.html" width="725" height="390"> </iframe>
 
 ### Alright really though, where should we stay
 
