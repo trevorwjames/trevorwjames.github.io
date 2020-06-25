@@ -23,17 +23,24 @@ We can clearly see some things from the average price per neighborhood, it may t
 
 Just for fun, let's take a look at the most expensive area, say we won the lottery and we want to have some fun! Tribeca, the red highlighted bar on the figure above, is clear and away the most expensive place to stay averaging just about 490$/night.
 
-In my experience when you charge top dollar for a place to stay you should have nothing but raving reviews right? We don't have access to the quality of reviews, but we do have access to the number of reviews. Does the price of where you stay have any connection with the number of reviews?
+In my experience when you charge top dollar for a place to stay you should have nothing but raving reviews right? We don't have access to the quality of reviews, but we do have access to the number of reviews. Does the price of where you stay have any connection with the number of reviews? (_Zoom in on the chart and hover over the points to see more info about each location_)
 
 <iframe style="border-width:0" src="https://charts.sharpdesigndigital.com/trevor-tribecreviewsprice.html" width="725" height="390"> </iframe>
 
+Huh, so it looks like if youre planning on spening over 800$/night on a place to stay, there wont be as many people reviewing it. That makes sense to a degree, how many people are actually spending that much on a night in an AirBnB. A loft in Tribeca with a private elevator does sound pretty delightful though. 
+
 ### Alright really though, where should we stay
 
-Say we haven't won the lottery, yet. Lets select abother neightborhood that is more in our price range. Contrary to popular belief, Harlem is a very up and coming area that is a short train ride away from some awesome attractions downtown. If you use the same guidelines as above. We can pick out a place to stay that is in our price range. Also we can compare how reviewed out each place is as well. 
+Say we haven't won the lottery, yet. Lets select abother neightborhood that is more in our price range. Contrary to popular belief, Harlem is a very up and coming area that is a short train ride away from some fantastic attractions downtown. If you use the same guidelines as above. We can pick out a place to stay that is in our price range. Also we can compare how reviewed out each place is as well. 
 
 <iframe style="border-width:0" src="https://charts.sharpdesigndigital.com/trevor-harlemreviews.html" width="725" height="390"> </iframe>
 
-There _are_ some variables we have left out when it comes to selecting a place to stay. Being able to see a few photos, actually read the reviews to see how positive they are, and maybe even looking into the host a touch, can have a big impact on where to stay. What we did do though is take out the bias of either paid advertisements popping up first, or letting the search engine show us what it thinks we are looking for. 
+Now that we have a better idea of where we want to look, eliminated some of the "fluff" that comes with inadequte searches and paid advertising through the app. We can make **much** better decisions based on the visual prarmeters provided. 
 
-Think twice next time before you just select the AirBnB that pops up first on your serach, there are thousands of options. Explore wisely. 
+
+## Final Thoughts
+
+There are _some_ variables we have left out when it comes to selecting a place to stay. Being able to see a few photos, actually read the reviews to see how positive they are, and maybe even looking into the host a touch. All good things that you could do now that you have a more clear picture of what the landscape of renting an AirBnB in New York City looks like! 
+
+Think twice next time before you just select the AirBnB that pops up first on your search, there are thousands of options. Explore accordignly. 
 
