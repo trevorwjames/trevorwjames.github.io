@@ -15,7 +15,7 @@ Despite Manhattan being just under 23 square miles, there are 33 different uniqu
 
 ### What Price looks Right??
 
-<iframe style="border-width:0" src="https://charts.sharpdesigndigital.com/trevor-manhattanavgsbig.html" width="900" height="750" style='margin: 0 auto; display: block'> </iframe>
+<iframe style="border-width:0" src="https://charts.sharpdesigndigital.com/trevor-manhattanavgsbig.html" width="900" height="750"> </iframe>
 
 We can clearly see some things from the average price per neighborhood, it may take a little reaserch outside just our data, because just going for the cheapest neighborhood in manhattan could put as a ways away from what we want to see and do! Despite thinking that oh "Inwood, or Marble Hill is the way to go.", that would put us a ways away from the action. Before we choose our realistic option for where we would want to stay, lets have a little fun first. 
 
