@@ -6,43 +6,21 @@ cover-img: /assets/img/manhattanskyline.jpeg
 tags: [marketing, sales, telco, machinelearning]
 ---
 
-## Finding a place to stay in New York City can be stressful...
+## What makes a "Sticky" Customer
 
-Rather than relying on the pictures, the wordy descriptions, and the "fluffy" stuff. Let's let the data decide what AirBnB we should select for our journey to the big apple. 
+The term sticky is just like it sounds. Someone that stays around and sticks to the subscription for a long time. In the battle of CLV (Client Lifetime Value) The goal is to earn customers that buy and keep on buying. This idea comes from the old addage "I would Rather make 10k/week for the rest of my life than 1 Million dollars once". For Businesses that sell a subscription based service LCV and ACV (Average Client Value) are the two biggest ways they evaluate how the business is running. For the purpose of this project we are going to stay focused on LCV. 
 
-When you have the job of reserving a room for your trip, there are so many different options to take into consideration. Price, location, reviews, looks, host, etc. What we have done here is take a small portion of the objectivity out of it and look to understand our options based upon the **Data!**
-Despite Manhattan being just under 23 square miles, there are 33 different unique "neighborhoods" that AirBnB uses to identify the area in which the reservation is located in. In order to make it a little easier to search for prices I took a look at the average price per neighborhood. This would make it a little easier to search if I could filter down to the neighborhoods that had a reasonable price range.
+In order to understand LCV you need 2 numbers. 1. Monthy Revenue from that customer(Montly Charges), 2. Number of months (Tenure). That yeilds the total amount of money that customer brings in (Total Charges). We have two options in order to increase LCV, increase monthly charges or increase the number of months the customer pays. For the purpose of this project we will focus on an idea called "Churn"
 
-### What Price looks Right??
+## What is Churn?
 
-<iframe style="border-width:0" src="https://charts.sharpdesigndigital.com/trevor-manhattanavgsbig.html" width="900" height="750"> </iframe>
+Churn is also known as attrition, this is when a customer "falls off" Or cancels service. In the fight for High LCV attrition is the #1 Enemy. Here is where we find our useful target for prediction. Can we predict, based on a description of the customer, if they are going to "Churn". 
 
-We can clearly see some things from the average price per neighborhood, it may take a little reaserch outside just our data, because just going for the cheapest neighborhood in manhattan could put as a ways away from what we want to see and do! Despite thinking that oh "Inwood, or Marble Hill is the way to go.", that would put us a ways away from the action. Before we choose our realistic option for where we would want to stay, lets have a little fun first. 
+## Predictive Modeling or Machine Learning
 
-### If Money grew on trees...
+Personally I like the sound of Predictive Modeling, over Machine Learning. The idea that I am creating a machine that learns based off of a set of characterstics in order to produce or predict an outcome is a little over my head. I guess I can connect with the "black box" idea a little better. 
 
-Let's take a look at the most expensive area, say we won the lottery and we want to have a 5 star experience via AirBnB! Tribeca, the red highlighted bar on the figure above, is clear and away the most expensive place to stay averaging just about 490$/night.
-
-In my experience when you charge top dollar for a place to stay you should have nothing but raving reviews right? We don't have access to the quality of reviews, but we do have access to the number of reviews. Does the price of where you stay have any connection with the number of reviews? (_Zoom in on the chart and hover over the points to see more info about each location_)
-
-<iframe style="border-width:0" src="https://charts.sharpdesigndigital.com/trevor-tribecreviewspricebig.html" width="865" height="450"> </iframe>
-
-Huh, so it looks like if youre planning on spending over 800$/night on a place to stay, there wont be as many people reviewing it. That makes sense to a degree, how many people are actually spending that much on a night in an AirBnB. A loft in Tribeca with a private elevator does sound pretty delightful though. 
-
-### Back to Reality
-
-Say we haven't won the lottery, yet. Lets select abother neightborhood that is more in our price range. Contrary to popular belief, Harlem is a very up and coming area that is a short train ride away from some fantastic attractions downtown. Also, in order to view the options we have im going to limit the options on the chart below to $500/night or less. If you use the same guidelines as above. We can pick out a place to stay that is in our price range. Also we can compare how reviewed each place is as well. 
-
-<iframe style="border-width:0" src="https://charts.sharpdesigndigital.com/trevor-harlemreviewsbig.html" width="865" height="450"> </iframe>
-
-Now that we have a better idea of where we want to look, eliminated some of the "fluff" that comes with inadequte searches and paid advertising through the app. We can make **much** better decisions based on the visual prarmeters provided. The "Spacious Harlem Garde Apartment" with hosts Alex and Maya, for 155$/night and just under 140 reviews sounds like a winner! 
-
-
-## Final Thoughts
-
-There are _some_ variables we have left out when it comes to selecting a place to stay. Being able to see a few photos, actually read the reviews to see how positive they are, and maybe even looking into the host. All good things that you could do now that you have a more clear picture of what the landscape of renting an AirBnB in New York City looks like! 
-
-Think twice next time before you just select the AirBnB that pops up first on your search, there are thousands of options. Explore accordignly. 
+So out goal is to use a set of features or "dependent variables" in order to predict a target or "independent variable". After getting the data all ready for processing running through multiple different models in order to find the one that gave us the "Best" result. Best in this case meaning the highest probability that the prediction that the model comes out with is the same as it would be in real life. Using a mertic call Reciever Operating Characteristic - Area Under the Curve will be the number that compares our models. 
 
 
 ### Link to Github repository & data set source 
