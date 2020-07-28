@@ -14,7 +14,7 @@ In order to understand LCV you need two numbers. 1. Monthy Revenue from that cus
 
 ## What is Churn?
 
-Churn is also known as attrition, this is when a customer "falls off" or cancels service. In the fight for High LCV, attrition is the #1 Enemy. Here is where we find our useful target for prediction. Can we predict, based on a description of the customer, if they are going to "Churn". In order to have a starting point that will allow us to prove our model is better than just guessing the average, We use a baseline. 
+Churn is also known as attrition, this is when a customer "falls off" or cancels service. In the fight for High LCV, attrition is the #1 Enemy. Here is where we find our useful target for prediction. Can we predict, based on a description of the customer, if they are going to "Churn". In order to have a starting point that will allow us to prove our model is better than just guessing the average, We use a baseline. First and formost our goal is predicting one of two outcomes - if the customer will discontinue service or remain with the service. This means that if churn is "True" the customer will terminate or cancel service. If "Fasle" the customer will remain with the service. A little confusing at first. Although we can break it down to saying True is bad and False is good!. 
 
 <img src="/assets/img/carbon (1).png">
 
@@ -22,14 +22,19 @@ Churn is also known as attrition, this is when a customer "falls off" or cancels
 
 Personally I like the sound of Predictive Modeling, over Machine Learning. The idea that I am creating a machine that learns based off of a set of characterstics in order to produce or predict an outcome is a little over my head. I guess I can connect with the "black box" idea a little better. 
 
-So out goal is to use a set of features or "dependent variables" in order to predict a target or "independent variable". After getting the data all ready for processing running through multiple different models in order to find the one that gave us the "Best" result. Best in this case meaning the highest probability that the prediction that the model comes out with is the same as it would be in real life. Using a mertic call Reciever Operating Characteristic - Area Under the Curve will be the number that compares our models. 
+So our goal is to use a set of features or "dependent variables" in order to predict a target or "independent variable". After getting the data all ready for modeling. We can run through a few different model types in order to find the one that gave us the "Best" result. Best in this case meaning the highest probability that the prediction that the model comes out with is the same as it would be in real life. We will use 2 metrics primarliy in order to understand out model. First is ROC-AUC, Second is Recall. 
 
-First and formost our goal is predicting one of two outcomes - if the customer will discontinue service or remain with the service. This means that if churn is "True" the customer will terminate or cancel service. If "Fasle" the customer will remain with the service. A little confusing at first. Although we can break it down to saying True is bad and False is good!. 
+ROC-AUC is the Reciever Operating Charateristic and Area under the Curve. This is a measure of how our predicitions will compare to the actual results. Resulting in True and False Positives, as well as True and False Negatives. This can be extremely import factors when it comes to life or death scenarios. Because maintaining your service with a certain provider is not life or death. We are merely going to use this number in order to show what model performs best. 
+
+Recall is the number of True Positive predicted outcomes, out of the total number of precited outcomes. This is the score we are looking for when it comes to something in the marketing realm. We want to keep from losing as many people as possible, if we happen to target a group in which may not be at risk for churn, that is ok. The main goal is to include all that could possibily cancel service.  
+
+<img src="/assets/img/carbon (2).png">
 
 ## And The Winner is...
 
 We like to be as "Scientific" as posible when looking at a problem. This is always the best way to go about findig the simplest solution for a complex problem. I personally have always believed that the most simple solution is alwasy the best one. After being as scientific as possible during my model building stage we have arrived at our ideal model. A Logistic Regression model. Based on Accuracy, 
 
+<img src="/assets/img/lin model.png">
 
 ### Link to Github repository & data set source 
 
