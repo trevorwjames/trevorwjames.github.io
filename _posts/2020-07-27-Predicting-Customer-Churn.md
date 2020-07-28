@@ -43,9 +43,19 @@ We like to be as "Scientific" as posible when looking at a problem. This is alwa
 
 ## Now What? 
 
-Now that we have officially become fortune tellers, how do we use that power for the greater good? How can we use the mechanisms of our model to help shape the way our business handles our customer? Lets look at a few post modeling metrics that will give us insight on what features of our data have the largest impact on the outcome. 
+Now that we have officially become fortune tellers, how do we use that power for the greater good? How can we use the mechanisms of our model to help shape the way our business handles our customer? Lets look at a few post modeling metrics that will give us insight on what features of our data have the largest impact on the outcome. First is the "Permutation Importance" This is a process of jumbling up each feature and re-inputting that feature into the model to see how much of an impact it will have on the outcome. This process gives us insight on which customer characteritic would be the most important, or the ideal place to focus our energy on in order to reduce attrition.
 
 <img src="/assets/img/newplot.png">
+
+From what we can see above the far and away number most important characteristic is "Tenure". The number of years a customer has been with the service. Well obviously this is important, because if they are still with the company they havent left yet... Let look at it from a different lens. The longer a customer stays with a company, the more likely they are to continue service. That means if we are looking to increase the LCV of a customer, puttint he focus on having them for a longer time, rather than a quick sell will make an exponential outcome down the road. This could help gear the sales team, or marketing team away from quick deals or fixes and more toward long term committments. 
+
+The second most important characteristic that is involved in predicting Churn is "Monthly Charges". Looking at how the two interact using a Partial Dependence Plot with both Tenur and Montly Charges gives us further insight into general ideas to give to the team on where the emphasis lies in creating the best chances of customer Stickyness! 
+
+<img src="/assest/img/pdpinteract.png">
+
+## Conclusions
+
+Human actions are almost impossible to predict, On the contrary history often tends to repeat itself. If we are able to leverage the history of human actions in a model that weighs the importances and interaction of human charaterstics and purchasing habits. We have a chance at gaining an edge to help companies gear their intentions to the keep customers around, for longer. 
 
 ### Link to Github repository & data set source 
 
