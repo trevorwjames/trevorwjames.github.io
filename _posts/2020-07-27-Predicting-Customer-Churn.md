@@ -26,20 +26,22 @@ So our goal is to use a set of features or "dependent variables" in order to pre
 
 ROC-AUC is the Reciever Operating Charateristic and Area under the Curve. This is a measure of how our predicitions will compare to the actual results. Resulting in True and False Positives, as well as True and False Negatives. This can be extremely import factors when it comes to life or death scenarios. Because maintaining your service with a certain provider is not life or death. We are merely going to use this number in order to show what model performs best. 
 
+<img src="/assets/img/ROC-AUC.png">
+
 Recall is the number of True Positive predicted outcomes, out of the total number of precited outcomes. This is the score we are looking for when it comes to something in the marketing realm. We want to keep from losing as many people as possible, if we happen to target a group in which may not be at risk for churn, that is ok. The main goal is to include all that could possibily cancel service.  
 
 <img src="/assets/img/carbon (2).png">
 
 ## And The Winner is...
 
-We like to be as "Scientific" as posible when looking at a problem. This is always the best way to go about findig the simplest solution for a complex problem. I personally have always believed that the most simple solution is alwasy the best one. After being as scientific as possible during my model building stage we have arrived at our ideal model. A Logistic Regression model. Based on Accuracy, 
+We like to be as "Scientific" as posible when looking at a problem. This is always the best way to go about findig the simplest solution for a complex problem. I personally have always believed that the most simple solution is alwasy the best one. After being as scientific as possible during my model building stage we have arrived at our ideal model. A Logistic Regression model. Based on an ROC-AUC score of 84.3, and a recall score of .90, we have come across a model that we can use to predict to a high probability that a customer will Churn.
 
 <img src="/assets/img/lin model.png">
 
 ### Link to Github repository & data set source 
 
-[Github project repository](https://github.com/trevorwjames/Build-Week-1)
+[Github project repository](https://github.com/trevorwjames/Build_week2)
 
-[AirBnb Data Set](http://insideairbnb.com/get-the-data.html)
+[Telco Customer Churn Dataset](https://www.kaggle.com/palashfendarkar/wa-fnusec-telcocustomerchurn)
 
 
