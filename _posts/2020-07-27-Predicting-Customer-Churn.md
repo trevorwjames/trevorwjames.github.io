@@ -51,7 +51,7 @@ From what we can see above the far and away number most important characteristic
 
 The second most important characteristic that is involved in predicting Churn is "Monthly Charges". Looking at how the two interact using a Partial Dependence Plot with both Tenur and Montly Charges gives us further insight into general ideas to give to the team on where the emphasis lies in creating the best chances of customer Stickyness! 
 
-<img src="/assest/img/pdpinteract.png">
+<img src="/assets/img/pdpinteract.png">
 
 ## Conclusions
 
