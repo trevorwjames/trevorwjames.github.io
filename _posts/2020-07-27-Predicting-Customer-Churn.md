@@ -2,7 +2,7 @@
 layout: post
 title: Predicting Customer Adherence
 subtitle: Utilizing a Telecommunication Data set in order to predict Churn
-cover-img: assets/img/phone-illustration.png
+cover-img: assets/img/shutterstock_377215789_0.jpg
 tags: [marketing, sales, telco, machinelearning]
 ---
 
