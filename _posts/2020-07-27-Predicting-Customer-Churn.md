@@ -28,6 +28,9 @@ ROC-AUC is the Reciever Operating Charateristic and Area under the Curve. This i
 
 <img src="/assets/img/ROC-AUC.png">
 
+
+<img src="/assets/img/ROC-AUC-carbon.png">
+
 Recall is the number of True Positive predicted outcomes, out of the total number of precited outcomes. This is the score we are looking for when it comes to something in the marketing realm. We want to keep from losing as many people as possible, if we happen to target a group in which may not be at risk for churn, that is ok. The main goal is to include all that could possibily cancel service.  
 
 <img src="/assets/img/carbon (2).png">
