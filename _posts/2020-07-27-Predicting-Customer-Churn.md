@@ -41,6 +41,12 @@ We like to be as "Scientific" as posible when looking at a problem. This is alwa
 
 <img src="/assets/img/lin model.png">
 
+## Now What? 
+
+Now that we have officially become fortune tellers, how do we use that power for the greater good? How can we use the mechanisms of our model to help shape the way our business handles our customer? Lets look at a few post modeling metrics that will give us insight on what features of our data have the largest impact on the outcome. 
+
+<img src="/assets/img/newplot.png">
+
 ### Link to Github repository & data set source 
 
 [Github project repository](https://github.com/trevorwjames/Build_week2)
