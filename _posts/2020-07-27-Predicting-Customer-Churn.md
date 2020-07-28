@@ -2,7 +2,7 @@
 layout: post
 title: Predicting Customer Adherence
 subtitle: Utilizing a Telecommunication Data set in order to predict Churn
-cover-img: /assets/img/manhattanskyline.jpeg
+cover-img: assets/img/phone-illustration.png
 tags: [marketing, sales, telco, machinelearning]
 ---
 
@@ -28,7 +28,7 @@ First and formost our goal is predicting one of two outcomes - if the customer w
 
 ## And The Winner is...
 
-We like to be as "Scientific" as posible when looking at a problem. This is always the best way to go about findig the simplest solution for a complex problem. I personally have always believed that the most simple solution is alwasy the best one. After being as scientific as possible during my model building stage we have arrived at our idea model. A Logistic Regression model. Based on Accuracy, 
+We like to be as "Scientific" as posible when looking at a problem. This is always the best way to go about findig the simplest solution for a complex problem. I personally have always believed that the most simple solution is alwasy the best one. After being as scientific as possible during my model building stage we have arrived at our ideal model. A Logistic Regression model. Based on Accuracy, 
 
 
 ### Link to Github repository & data set source 
