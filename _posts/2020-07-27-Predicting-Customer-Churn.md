@@ -15,9 +15,9 @@ In order to understand LCV you need two numbers. 1. Monthy Revenue from that cus
 ## What is Churn?
 
 Churn is also known as attrition, this is when a customer "falls off" or cancels service. In the fight for High LCV, attrition is the #1 Enemy. Here is where we find our useful target for prediction. Can we predict, based on a description of the customer, if they are going to "Churn". In order to have a starting point that will allow us to prove our model is better than just guessing the average, We use a baseline. 
----
-image: trevorwjames.github.io/assets/img/carbon(1).png
----
+
+<img src="trevorwjames.github.io/assets/img/carbon (1).png" alt="None">
+
 ## Predictive Modeling or Machine Learning
 
 Personally I like the sound of Predictive Modeling, over Machine Learning. The idea that I am creating a machine that learns based off of a set of characterstics in order to produce or predict an outcome is a little over my head. I guess I can connect with the "black box" idea a little better. 
