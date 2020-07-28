@@ -26,7 +26,7 @@ So our goal is to use a set of features or "dependent variables" in order to pre
 
 ROC-AUC is the Reciever Operating Charateristic and Area under the Curve. This is a measure of how our predicitions will compare to the actual results. Resulting in True and False Positives, as well as True and False Negatives. This can be extremely import factors when it comes to life or death scenarios. Because maintaining your service with a certain provider is not life or death. We are merely going to use this number in order to show what model performs best. 
 
-<img src="/assets/img/ROC-AUC.png">
+<img src="/assets/img/ROC-AUC-curve.png">
 
 
 <img src="/assets/img/ROC-AUC-carbon.png">
