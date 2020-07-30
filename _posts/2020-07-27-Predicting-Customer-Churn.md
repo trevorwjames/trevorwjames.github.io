@@ -14,7 +14,7 @@ In order to understand LCV you need two numbers. 1. Monthy Revenue from that cus
 
 ## What is Churn?
 
-Churn is also known as attrition, this is when a customer "falls off" or cancels service. In the fight for High LCV, attrition is the #1 Enemy. Here is where we find our useful target for prediction. Can we predict, based on a description of the customer, if they are going to "Churn". In order to have a starting point that will allow us to prove our model is better than just guessing the average, We use a baseline. First and formost our goal is predicting one of two outcomes - if the customer will discontinue service or remain with the service. This means that if churn is "True" the customer will terminate or cancel service. If "Fasle" the customer will remain with the service. A little confusing at first. Although we can break it down to saying True is bad and False is good!. 
+Churn is also known as attrition, this is when a customer "falls off" or cancels service. In the fight for High LCV, attrition is the #1 Enemy. Here is where we find our useful target for prediction. Can we predict, based on a description of the customer, if they are going to "Churn". In order to have a starting point that will allow us to prove our model is better than just guessing the average, We use a baseline. First and formost our goal is predicting one of two outcomes - if the customer will discontinue service or remain with the service. This means that if churn is "True" the customer will terminate or cancel service. If "False" the customer will remain with the service. A little confusing at first. Although we can break it down to saying True is bad and False is good!. 
 
 <img src="/assets/img/carbon (1).png">
 
