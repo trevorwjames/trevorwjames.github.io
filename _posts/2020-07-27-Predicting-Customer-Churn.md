@@ -18,7 +18,7 @@ Churn is also known as attrition, this is when a customer "falls off" or cancels
 
 <img src="/assets/img/carbon (1).png">
 
-## Fail to Prepare, or Prepare to Fail
+## Data Preperation
 
 Our goal is to use a set of features or "independent variables" in order to predict a target or "dependent variable". After cleaning up a few columns in our dataset, the first task was to break apart the features from the target. In order to have an honest model that can truly predict, rather than just read btw the lines, we perform a train, validation, test split of the data. Meaning we have a large set in which the model will use to learn the in's and out's of how to predict churn. A set to make sure that it can be geenralized and compared. Then a set that we do not touch until we are ready to run our model one last time.
 
