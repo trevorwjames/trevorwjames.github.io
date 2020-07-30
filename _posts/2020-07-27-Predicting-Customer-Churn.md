@@ -52,13 +52,15 @@ Now that we have officially become fortune tellers, how do we use that power for
 
 From what we can see above the far and away number most important characteristic is "Tenure". The number of months a customer has been with the service. Well obviously this is important, because if they are still with the company they havent left yet... Lets look at it from a different lens. The longer a customer stays with a company, the more likely they are to continue service. That means if we are looking to increase the LCV of a customer, placing the focus on having them for a longer time, rather than a quick sell will make an exponential outcome down the road. This could help gear the sales team, or marketing team away from quick deals or fixes and more toward long term committments. 
 
-The second most important characteristic that is involved in predicting Churn is "Monthly Charges". Looking at how the two interact using a Partial Dependence Plot with both Tenur and Montly Charges gives us further insight into general ideas to give to the team on where the emphasis lies in creating the best chances of customer Stickyness! 
+The second most important characteristic that is involved in predicting Churn is "Total Charges". This is a function of the number of months they have been with the service and the "Monthly Charges" feature. The Total charges features is an extrapolation on the idea of Tenure. Although we are not exactly sure of the correlation... Is is those who spent more money, or less money? All we know right now is that the feature is important, we are not exactly sure what parts of the feature are important. For that lets look how how Tenure and Montlhy charges interact - after all, thats how we arrive at Total Charges. 
 
 <img src="/assets/img/pdpinteract.png">
 
+From this chart we can see those squares in yellow have a higher probability of Churn, that being the customers with a very _short_ tenure, and _high_ Monthly charges. Then as you move to a _long_ tenure and _low_ monthly charges we see the probabilty decrease. What can we do with this information to better run our business, or gear or goals as a sales team?
+
 ## Conclusions
 
-Human actions are almost impossible to predict, On the contrary history often tends to repeat itself. If we are able to leverage the history of human actions in a model that weighs the importances and interaction of human charaterstics and purchasing habits. We have a chance at gaining an edge to help companies gear their intentions to the keep customers around, for longer. 
+There is still much to take into account when working on a predictive model like this, because I do not have as much background on the time frame of the dataset, the goals of the company, more in depth product knowledge, etc. I cant make hard suggestions. Although from our findings we can see that a lower customer monthly payment, combined with a decent tenure tends to mean they will stay with the company for longer. Directing the stragtegy of all parties involved to incentivize moderate priced monthly options with longer term commitments may be the way to create the growth the company is looking for. 
 
 ### Link to Github repository & data set source 
 
