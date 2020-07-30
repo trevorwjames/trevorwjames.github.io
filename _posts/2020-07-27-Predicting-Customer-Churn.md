@@ -8,7 +8,7 @@ tags: [marketing, sales, telco, machinelearning]
 
 ## What makes a "Sticky" Customer
 
-The term sticky is just like it sounds. Someone that stays around and sticks to the subscription for a long time. In the battle of LCV (Lifetime Client Value) The goal is to earn customers that buy and keep on buying. This idea comes from the old addage "I would Rather make 10k/week for the rest of my life than 1 Million dollars once". For Businesses that sell a subscription based service LCV and ACV (Average Client Value) are the two biggest ways they evaluate how the business is running. For the purpose of this project we are going to stay focused on LCV. 
+The term sticky is just like it sounds. Someone that stays around and sticks to the subscription for a long time. In the battle of LCV (Lifetime Client Value) The goal is to earn customers that buy and keep on buying. This idea comes from the old addage "I would Rather make 10k/week for the rest of my life than a Million dollars once". For Businesses that sell a subscription based service LCV and ACV (Average Client Value) are the two biggest ways they evaluate how the business is running. For the purpose of this project we are going to stay focused on LCV. 
 
 In order to understand LCV you need two numbers. 1. Monthy Revenue from that customer(Montly Charges), 2. Number of months (Tenure). That yeilds the total amount of money that customer brings in (Total Charges). We have two options in order to increase LCV, increase monthly charges or increase the number of months the customer pays. For the purpose of this project we will focus on an idea called "Churn"
 
@@ -18,28 +18,31 @@ Churn is also known as attrition, this is when a customer "falls off" or cancels
 
 <img src="/assets/img/carbon (1).png">
 
-## Predictive Modeling or Machine Learning
+## Fail to Prepare, or Prepare to Fail
 
-Personally I like the sound of Predictive Modeling, over Machine Learning. The idea that I am creating a machine that learns based off of a set of characterstics in order to produce or predict an outcome is a little over my head. I guess I can connect with the "black box" idea a little better. 
+Our goal is to use a set of features or "independent variables" in order to predict a target or "dependent variable". After cleaning up a few columns in our dataset, the first task was to break apart the features from the target. In order to have an honest model that can truly predict, rather than just read btw the lines, we perform a train, validation, test split of the data. Meaning we have a large set in which the model will use to learn the in's and out's of how to predict churn. A set to make sure that it can be geenralized and compared. Then a set that we do not touch until we are ready to run our model one last time.
 
-So our goal is to use a set of features or "dependent variables" in order to predict a target or "independent variable". After getting the data all ready for modeling. We can run through a few different model types in order to find the one that gave us the "Best" result. Best in this case meaning the highest probability that the prediction that the model comes out with is the same as it would be in real life. We will use 2 metrics primarliy in order to understand out model. First is ROC-AUC, Second is Recall. 
+## Metrics
+
+We will try a few different model types in order to find the one that gave us the "Best" result. Best in this case meaning the highest probability that the prediction that the model comes out with is the same as it would be in real life. We will use 2 metrics primarliy in order to understand our model. First is ROC-AUC, Second is Recall.
+
+## And The Winner is...
+
+We like to be as "Scientific" as posible when looking at a problem. This is always the best way to go about findig the simplest solution for a complex problem. The problem at hand is one that we can categorise as a supervised classfication problem. This means we are able to identify our target variable, and that taget variable that we are attempting to predict is binary. We start with the simplest form of predictive modeling for classification. Logistical Regression, this modeling style using a regression equation to create a line that "Fits" the probability of the features resulting in a certain outcome. Although in normal regression that line would be relatively straight. In our case because we have only two options, our line looks more like an "S". After being as scientific as possible and running through a multitude of options, the best model is actuall where we started. A Logistic Regression model. Based on an ROC-AUC score of 84.3%, and a recall score of 90%, we have come across a model that we can use to predict to a high probability that a customer will Churn.
+
+<img src="/assets/img/lin model.png"> 
 
 ROC-AUC is the Reciever Operating Charateristic and Area under the Curve. This is a measure of how our predicitions will compare to the actual results. Resulting in True and False Positives, as well as True and False Negatives. This can be extremely import factors when it comes to life or death scenarios. Because maintaining your service with a certain provider is not life or death. We are merely going to use this number in order to show what model performs best. 
 
 <img src="/assets/img/ROC-AUC-curve.png">
 
+- Below are the scores of our **Logisitic Regresssion** model and **XGBoost** Model, its closest competitor
 
 <img src="/assets/img/ROC-AUC-carbon.png">
 
 Recall is the number of True Positive predicted outcomes, out of the total number of precited outcomes. This is the score we are looking for when it comes to something in the marketing realm. We want to keep from losing as many people as possible, if we happen to target a group in which may not be at risk for churn, that is ok. The main goal is to include all that could possibily cancel service.  
 
 <img src="/assets/img/carbon (2).png">
-
-## And The Winner is...
-
-We like to be as "Scientific" as posible when looking at a problem. This is always the best way to go about findig the simplest solution for a complex problem. I personally have always believed that the most simple solution is alwasy the best one. After being as scientific as possible during my model building stage we have arrived at our ideal model. A Logistic Regression model. Based on an ROC-AUC score of 84.3, and a recall score of .90, we have come across a model that we can use to predict to a high probability that a customer will Churn.
-
-<img src="/assets/img/lin model.png">
 
 ## Now What? 
 
